@@ -16,7 +16,10 @@ total = 0
 for line in lines:
     pass
 
-print(total)
+print('Part 1:', total)
+print("--- %s seconds ---" % (time.time() - start_time))
+start_time = time.time()
 
 
+print('Part 2:', total)
 print("--- %s seconds ---" % (time.time() - start_time))
